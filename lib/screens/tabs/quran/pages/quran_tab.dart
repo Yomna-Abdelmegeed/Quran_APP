@@ -5,7 +5,7 @@ import 'package:islami/screens/tabs/quran/widgets/search_widget.dart';
 import 'package:islami/screens/tabs/quran/widgets/suras_list.dart';
 
 class QuranTab extends StatefulWidget {
-  QuranTab({super.key});
+const  QuranTab({super.key});
 
   @override
   State<QuranTab> createState() => _QuranTabState();
@@ -18,7 +18,6 @@ class _QuranTabState extends State<QuranTab> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     controller.addListener(onSearch);
     searchNode = FocusNode();

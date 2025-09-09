@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:islami/helper/colors/app_color.dart';
@@ -54,7 +56,7 @@ class _AzkarDetailsState extends State<AzkarDetails> {
         isRead = List<bool>.filled(azkar.length, false);
       });
     } catch (e) {
-      print("Error loading Azkar file: $e");
+      log("Error loading Azkar file: $e");
       setState(() {
         isLoading = false;
       });

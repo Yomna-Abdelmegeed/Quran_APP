@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:islami/helper/colors/app_color.dart';
 
 class SibhaTab extends StatefulWidget {
-  SibhaTab({super.key});
+  const SibhaTab({super.key});
 
   @override
   State<SibhaTab> createState() => _SibhaTabState();

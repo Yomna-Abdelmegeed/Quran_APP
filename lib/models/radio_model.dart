@@ -7,7 +7,7 @@ class RadioModel {
     if (json['radios'] != null) {
       radios = <Radios>[];
       json['radios'].forEach((v) {
-        radios!.add(new Radios.fromJson(v));
+        radios!.add( Radios.fromJson(v));
       });
     }
   }

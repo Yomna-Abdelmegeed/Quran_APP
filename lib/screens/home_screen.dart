@@ -7,7 +7,7 @@ import 'package:islami/screens/tabs/radio/radio_tab.dart';
 import 'package:islami/screens/tabs/time/pages/time_tab.dart';
 
 class HomeScreen extends StatefulWidget {
-  HomeScreen({super.key});
+  const HomeScreen({super.key});
   static const String routeName = "Home";
 
   @override
@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
       decoration: BoxDecoration(
           image: DecorationImage(
               image: AssetImage(
-                  'assets/images/${build_background(currentIndex)}.png'),
+                  'assets/images/${buildBackground(currentIndex)}.png'),
               fit: BoxFit.cover)),
       child: Scaffold(
         backgroundColor: Colors.transparent,
@@ -41,23 +41,23 @@ class _HomeScreenState extends State<HomeScreen> {
           },
           items: [
             BottomNavigationBarItem(
-              icon: build_icon(index: 0, name: 'Quran_ic'),
+              icon: buildIcon(index: 0, name: 'Quran_ic'),
               label: 'Quran',
             ),
             BottomNavigationBarItem(
-              icon: build_icon(index: 1, name: 'Hadith_ic'),
+              icon: buildIcon(index: 1, name: 'Hadith_ic'),
               label: 'Hadith',
             ),
             BottomNavigationBarItem(
-              icon: build_icon(index: 2, name: 'sibha_ic'),
+              icon: buildIcon(index: 2, name: 'sibha_ic'),
               label: 'Sibha',
             ),
             BottomNavigationBarItem(
-              icon: build_icon(index: 3, name: 'radio_ic'),
+              icon: buildIcon(index: 3, name: 'radio_ic'),
               label: 'Radio',
             ),
             BottomNavigationBarItem(
-              icon: build_icon(index: 4, name: 'time_ic'),
+              icon: buildIcon(index: 4, name: 'time_ic'),
               label: 'Time',
             ),
           ],
@@ -80,7 +80,7 @@ class _HomeScreenState extends State<HomeScreen> {
     TimeTab(),
   ];
 
-  String build_background(index) {
+  String buildBackground(index) {
     switch (index) {
       case 0:
         {
@@ -107,7 +107,7 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
-  Widget build_icon({required index, required name}) {
+  Widget buildIcon({required index, required name}) {
     return currentIndex == index
         ? Container(
             decoration: BoxDecoration(

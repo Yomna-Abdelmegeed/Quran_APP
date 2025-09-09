@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:carousel_slider_plus/carousel_slider_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -6,7 +8,7 @@ import 'package:islami/models/hadith_model.dart';
 import 'package:islami/screens/tabs/hadith/hadith_details.dart';
 
 class HadithTab extends StatefulWidget {
-  HadithTab({super.key});
+  const HadithTab({super.key});
 
   @override
   State<HadithTab> createState() => _HadithTabState();
@@ -123,7 +125,7 @@ class _HadithTabState extends State<HadithTab> {
         hadithList
             .add(HadithModel(title: title, content: hadithLines, index: i));
       } catch (error) {
-        print("Error loading hadith $i: $error");
+        log("Error loading hadith $i: $error");
       }
     }
 
