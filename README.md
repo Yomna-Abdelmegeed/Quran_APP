@@ -8,7 +8,6 @@
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-^3.6.1-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
-[![Bloc](https://img.shields.io/badge/State-Bloc%2FCubit-5C6BC0?style=for-the-badge&logo=bloc&logoColor=white)](https://bloclibrary.dev)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-lightgrey?style=for-the-badge&logo=android&logoColor=white)](https://flutter.dev)
 
