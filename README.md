@@ -88,7 +88,7 @@
 - Remembers returning users and skips intro automatically
 
 ---
-
+<!-- 
 ## 🏗️ Architecture
 
 Islami is built with a **scalable, reactive architecture** following clean separation of concerns:
@@ -108,7 +108,7 @@ Persistence        →  SharedPreferences (via Cache helper)
 - **Networking:** `Dio` for robust HTTP handling (Radio streams, Reciters API)
 - **Caching:** `SharedPreferences` wrapped in a custom `Cache` utility class
 
----
+--- -->
 
 ## 🎨 UI & Design Highlights
 
