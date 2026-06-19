@@ -26,7 +26,7 @@
     <th>Home — Quran</th>
   </tr>
   <tr>
-    <td><img src="assets/images/screenshots/splash.png" width="220"></td>
+    <td><img src="assets/images/screenshots/Splash.png" width="220"></td>
     <td><img src="assets/images/screenshots/onboarding.png" width="220"></td>
     <td><img src="assets/images/screenshots/quran_tab.png" width="220"></td>
   </tr>
