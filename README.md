@@ -187,7 +187,7 @@ Make sure you have the following installed:
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/islami.git
+git clone https://github.com/Yomna-Abdelmegeed/Quran_APP
 cd islami
 ```
 
